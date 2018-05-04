@@ -118,7 +118,7 @@ a:focus, a:hover {
 }
 
 .masthead {
-  /*display: table;
+  display: table;
   width: 100%;
   height: auto;
   padding: 200px 0;
@@ -129,27 +129,29 @@ a:focus, a:hover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
-  position: absolute;
+  background-size: cover;
+  /*this was for video
+ position: absolute;
   top:0;
   left:0;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  overflow: hidden;*/
 }
-.masterhead .intro-body video{
+/*.masterhead .intro-body video{
   min-width: 100%;
-  min-height: 100%;
+  min-height: 100%; */
   
 }
 
 .masthead .intro-body {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 .masthead .intro-body .brand-heading {
   font-size: 30px;
+  family-font: "courier";
 }
 
 .masthead .intro-body .intro-text {
@@ -195,7 +197,7 @@ a:focus, a:hover {
   padding-bottom: 150px;
 }
 
-.download-section {
+.project-section {
   display: table;
   width: 100%;
   height: auto;

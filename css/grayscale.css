@@ -118,7 +118,7 @@ a:focus, a:hover {
 }
 
 .masthead {
-  display: table;
+  /*display: table;
   width: 100%;
   height: auto;
   padding: 200px 0;
@@ -129,7 +129,18 @@ a:focus, a:hover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.masterhead .intro-body video{
+  min-width: 100%;
+  min-height: 100%;
+  
 }
 
 .masthead .intro-body {
@@ -185,6 +196,11 @@ a:focus, a:hover {
 }
 
 .download-section {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
   color: white;
   background: url("../img/tumblr_nuh4o7L4EW1rtzbzvo1_500.gif") no-repeat center center scroll;
   background-color: black;

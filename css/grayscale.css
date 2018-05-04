@@ -122,7 +122,7 @@ a:focus, a:hover {
   width: 100%;
   height: auto;
   padding: 200px 0;
-  text-align: bottom;
+  text-align: center;
   color: white;
   background: url("../img/tumblr_nuh4o7L4EW1rtzbzvo1_500.gif") no-repeat bottom center scroll;
   background-color: black;
@@ -167,6 +167,7 @@ a:focus, a:hover {
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
+    text-align: center;
   }
 }
 

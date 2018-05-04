@@ -52,7 +52,7 @@ a:focus, a:hover {
 }
 
 #mainNav {
-  font-family: 'Cabin', 'Helvetica Neue',Courier, Courier, sans-serif;
+  font-family: 'Cabin', 'Courier',Courier, Courier, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -124,7 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/yourname.gif") no-repeat bottom center scroll;
+  background: url("../img/tumblr_nuh4o7L4EW1rtzbzvo1_500.gif") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

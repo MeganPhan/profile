@@ -140,13 +140,13 @@ a:focus, a:hover {
 }
 /*.masterhead .intro-body video{
   min-width: 100%;
-  min-height: 100%; */
+  min-height: 100%; 
   
-}
+}*/
 
 .masthead .intro-body {
   display: table-cell;
-  vertical-align: top;
+  vertical-align: center;
 }
 
 .masthead .intro-body .brand-heading {

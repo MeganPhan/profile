@@ -33,7 +33,7 @@
 
     <!-- Custom styles -->
     <link href="css/grayscale.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
 
   </head>
 
@@ -66,7 +66,7 @@
     <!-- Intro Header -->
     <header class="masthead">
       <div class="intro-body">
-       <div class="container slideInUp animated">
+       <div class="container" data-aos="fade-down" data-aos-duration="600">
           <div class="row">
             <div class="col-lg-8 mx-auto">
                <h1 class="brand-heading">Hi there, I am Hoang.</h1>
@@ -85,9 +85,10 @@
         </div>
     </header>
 
+    
     <!-- About Section -->
     <section id="about" class="content-section text-center">
-      <div class="container zoomIn animated">
+      <div class="container" data-aos="zoom-out" data-aos-duration="500">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>About Me</h2>
@@ -98,22 +99,11 @@
           </div>
         </div>
       </div>
-      <!-- scroll animate activate-->
-      <!--css and js update needed-->
-      <script type="js/scroll">
-      (function(){
-      var aboutEl = $('div.about'),
-        aboutElOffset = aboutEl.offset().top/2,
-        documentEl = $(document);
-        documentEl.on('scroll', function() {
-        if (documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden')) aboutEl.removeClass('hidden');
-        });
-        
-      </script>
+      
     </section>
     <!-- Project Section -->
     <section id="download" class="project-section content-section text-center">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="500">
         <div class="col-lg-8 mx-auto">
           <h2>Projects</h2>
           <p style="font-family:courier">where my brain explodes </p>
@@ -125,7 +115,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="500">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h2>Contact Me</h2>
@@ -188,6 +178,11 @@
 
     <!-- Custom scripts -->
     <script src="js/grayscale.min.js"></script>
+    <!-- Scroll Reveal-->
+    <script src="js/aos.js"></script>
+    <script type="text/javascript">
+      AOS.init();
+    </script>
 
   </body>
 

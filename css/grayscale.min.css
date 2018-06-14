@@ -48,8 +48,8 @@ p {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3s steps(60),
-    blink-caret .5s step-end 3s;
+    typing 5s steps(60),
+    blink-caret .8s step-end 3s;
 }
 
 /* The typing effect */

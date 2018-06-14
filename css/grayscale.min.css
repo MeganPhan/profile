@@ -150,7 +150,7 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .masthead .intro-body .intro-text {
@@ -163,7 +163,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 60px;
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;

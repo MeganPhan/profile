@@ -144,12 +144,12 @@ a:focus, a:hover {
 
 .masthead {
   display: table;
-  width: 1280px;
-  height: 80px;
+  width: 100%;
+  height: auto;
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/background.jpg") /*no-repeat bottom center scroll*/;
+  background: url("../img/background1.jpg") /*no-repeat bottom center scroll*/;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,10 +226,10 @@ a:focus, a:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding: 2000px 0;
+  padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/background.jpg") no-repeat center center scroll;
+  background: url("../img/background1.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -145,11 +145,11 @@ a:focus, a:hover {
 .masthead {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 2000px 0;
   text-align: center;
   color: white;
-  background: url("../img/background.jpg") no-repeat bottom center scroll;
+  background: url("../img/background.jpg") /*no-repeat bottom center scroll*/;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

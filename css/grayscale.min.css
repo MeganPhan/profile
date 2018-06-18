@@ -149,7 +149,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/tumblr_nuh4o7L4EW1rtzbzvo1_500.gif") no-repeat bottom center scroll;
+  background: url("../img/background.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -229,7 +229,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/tumblr_nuh4o7L4EW1rtzbzvo1_500.gif") no-repeat center center scroll;
+  background: url("../img/background.") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

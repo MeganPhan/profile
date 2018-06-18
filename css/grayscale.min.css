@@ -155,6 +155,8 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
   /*this was for video
  position: absolute;
   top:0;

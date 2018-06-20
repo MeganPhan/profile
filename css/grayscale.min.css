@@ -177,6 +177,7 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
+  font-family: 'Indie Flower', cursive;
   font-size: 60px;
 }
 

@@ -85,7 +85,7 @@ a:focus, a:hover {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 25px;
+  font-size: 20px;
   padding: 11px;
   color: white;
   border: 1px solid white;
@@ -93,7 +93,7 @@ a:focus, a:hover {
 
 #mainNav .navbar-brand {
   font-weight: 700;
-  font-size:30px
+  font-size:25px
 }
 
 #mainNav a {

@@ -79,13 +79,13 @@ a:focus, a:hover {
 #mainNav {
   font-family: 'Sacramento', sans-serif;
   margin-bottom: 0;
-  text-transform: uppercase;
+  text-transform: lowercase ;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #F4B80D;
 }
 
 #mainNav .navbar-toggler {
-  font-size: 20px;
+  font-size: 26px;
   padding: 11px;
   color: #E7BE1B;
   border: 1px solid #E7BE1B;
@@ -132,7 +132,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: #F4B80;
+    background: black;
   }
   #mainNav .nav-link.active {
     outline: none;

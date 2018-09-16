@@ -151,7 +151,7 @@ a:focus, a:hover {
   text-align: center;
   color: white;
   background: url("../img/sunflower.jpg") no-repeat bottom center scroll;
-  background-color: #F4B80;
+  background-color: #F4B80D;
   -webkit-background-filter: blur(5px);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -295,7 +295,7 @@ ul.banner-social-buttons {
 
 footer {
   padding: 50px 0;
-  background-color: #F4B80;
+  background-color: #F4B80D;
 }
 
 footer p {

@@ -177,12 +177,12 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .brand-heading {
-  font-family: 'Courier', cursive;
+  font-family: 'Courier', sans-serif;
   font-size: 100px;
 }
 
 .masthead .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 50px;
 }
 
 @media (min-width: 768px) {

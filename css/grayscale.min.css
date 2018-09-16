@@ -79,16 +79,16 @@ a:focus, a:hover {
 #mainNav {
   font-family: 'Sacramento', sans-serif;
   margin-bottom: 0;
-  text-transform: lowercase;
+  text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: #F4B80D;
 }
 
 #mainNav .navbar-toggler {
   font-size: 20px;
   padding: 11px;
-  color: white;
-  border: 1px solid white;
+  color: #E7BE1B;
+  border: 1px solid #E7BE1B;
 }
 
 #mainNav .navbar-brand {
@@ -97,7 +97,7 @@ a:focus, a:hover {
 }
 
 #mainNav a {
-  color: white;
+  color: #E7BE1B;
 }
 
 #mainNav .navbar-nav .nav-item {
@@ -132,7 +132,7 @@ a:focus, a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
+    background: #F4B80;
   }
   #mainNav .nav-link.active {
     outline: none;
@@ -151,7 +151,7 @@ a:focus, a:hover {
   text-align: center;
   color: white;
   background: url("../img/sunflower.jpg") no-repeat bottom center scroll;
-  background-color: black;
+  background-color: #F4B80;
   -webkit-background-filter: blur(5px);
   -webkit-background-size: cover;
   -moz-background-size: cover;

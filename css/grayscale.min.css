@@ -146,8 +146,8 @@ a:focus, a:hover {
 .masthead {
   display: table;
   width: 100%;
-  height: auto;
-  padding: 300px 0;
+  height: 100%;
+  padding: 200px 0;
   text-align: center;
   color: #F88D04;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sunflower.jpg") no-repeat bottom center scroll;

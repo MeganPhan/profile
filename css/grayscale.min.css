@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Sacramento', sans-serif;
+  font-family: 'Courier', sans-serif;
   font-weight: 700;
   margin: 0 0 35px;
   letter-spacing: 1px;
@@ -182,7 +182,7 @@ a:focus, a:hover {
 }
 
 .masthead .intro-body .intro-text {
-  font-size: 50px;
+  font-size: 100px;
 }
 
 @media (min-width: 768px) {
@@ -191,10 +191,10 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 60px;
+    font-size: 100px;
   }
   .masthead .intro-body .intro-text {
-    font-size: 22px;
+    font-size: 100px;
   }
 }
 

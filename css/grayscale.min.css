@@ -231,7 +231,7 @@ a:focus, a:hover {
   height: auto;
   padding: 200px 0;
   text-align: center;
-  color: white;
+  color: #F88D04;
   background: url("../img/sunflower.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;

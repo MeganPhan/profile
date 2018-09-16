@@ -172,7 +172,7 @@ a:focus, a:hover {
 }*/
 
 .masthead .intro-body {
-  display: table;
+  display: table-cell;
   vertical-align: middle;
 }
 

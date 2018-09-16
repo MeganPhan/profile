@@ -172,7 +172,7 @@ a:focus, a:hover {
 }*/
 
 .masthead .intro-body {
-  display: table-cell;
+  display: none;
   vertical-align: middle;
 }
 
@@ -188,7 +188,7 @@ a:focus, a:hover {
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
-    padding: 0;
+    padding: 50;
   }
   .masthead .intro-body .brand-heading {
     font-size: 100px;

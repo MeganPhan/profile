@@ -147,7 +147,7 @@ a:focus, a:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding: 300px 0;
   text-align: center;
   color: #F88D04;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sunflower.jpg") no-repeat bottom center scroll;
@@ -172,7 +172,7 @@ a:focus, a:hover {
 }*/
 
 .masthead .intro-body {
-  display: none;
+  display: table;
   vertical-align: middle;
 }
 
@@ -188,7 +188,7 @@ a:focus, a:hover {
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
-    padding: 50;
+    padding: 0;
   }
   .masthead .intro-body .brand-heading {
     font-size: 100px;

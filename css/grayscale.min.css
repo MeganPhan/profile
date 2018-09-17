@@ -175,7 +175,7 @@ a:focus, a:hover {
   display: table-cell;
   vertical-align: middle;
   font-size: 50%;
-}
+} 
 
 @media (min-width: 768px) {
   .masthead {

@@ -217,7 +217,7 @@ a:focus, a:hover {
   height: auto;
   padding: 200px 0;
   text-align: center;
-  color: #F88D04;
+  color: #FFDAB9;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/sunflower.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -229,7 +229,7 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    background-color: #F4B80D; 
+    background-color: #FFDAB9; 
     padding-top: 200px;
     padding-bottom: 200px;
   }

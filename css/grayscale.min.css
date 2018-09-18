@@ -151,7 +151,7 @@ a:focus, a:hover {
   text-align: center;
   font-size: 50px;
   color: #FFDAB9;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/sunflower.jpg") no-repeat bottom center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/sunflower1.jpg") no-repeat bottom center scroll;
   background-color: #486f65;
   -webkit-background-filter: blur(5px);
   -webkit-background-size: cover;

@@ -152,7 +152,7 @@ a:focus, a:hover {
   font-size: 50px;
   color: #FFDAB9;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/sunflower.jpg") no-repeat bottom center scroll;
-  background-color: #dfc12a;
+  background-color: #486f65;
   -webkit-background-filter: blur(5px);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -231,7 +231,7 @@ a:focus, a:hover {
 @media (min-width: 992px) {
   .content-section {
     color: #FFDAB9;
-    background-color: #dfc12a; 
+    background-color: #486f65; 
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -283,7 +283,7 @@ ul.banner-social-buttons {
 
 footer {
   padding: 50px 0;
-  background-color: #dfc12a;
+  background-color: #486f65;
 }
 
 footer p {

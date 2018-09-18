@@ -206,6 +206,7 @@ a:focus, a:hover {
 }
 
 .content-section { 
+  color: #FFDAB9;
   background-color: #F4B80D;  
   padding-top: 150px;
   padding-bottom: 150px;
@@ -229,6 +230,7 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
+    color: #FFDAB9;
     background-color: #F4B80D; 
     padding-top: 200px;
     padding-bottom: 200px;

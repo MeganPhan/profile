@@ -16,7 +16,7 @@ header{
 
 .content {
     width: 80%;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 3em;
     font-size: 20px;
     line-height: 30px;
@@ -543,7 +543,9 @@ nav ul li a:hover{
     .menu-icon{
         display: block;
     }
-
+    .content{
+        margin-top: 1em;
+    }
     nav ul li a:hover{
         color: rgb(255, 174, 23);
     }

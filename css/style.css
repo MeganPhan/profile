@@ -547,7 +547,7 @@ nav ul li a:hover{
         margin-top: 1em;
     }
     .content p{
-        margin-right: 1em;
+        margin-right: 0em;
     }
     nav ul li a:hover{
         color: rgb(255, 174, 23);

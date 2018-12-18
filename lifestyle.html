@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- AngularJS-->
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+ 
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ 
+ <!-- Title -->
+ <title> Hoang Phan </title>
+ 
+ <!-- Title Icon -->
+ <link rel="shortcut icon" type="image/x-icon" href="assets/sunflower.ico">
+  
+ <link rel="canonical" href="https://hoangphan.me/lifestyle">
+ <!--CSS-->
+ <link href="css/style.css" rel="stylesheet">
+ <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<body>
+
+  <!--Navigation Bar-->
+<div class="homepage">
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <a class="logo">
+                  <p>Hoang Phan</p>
+            </a>
+            <ul>
+                <li> <a href = "">Home</a></li>
+                <li> <a href = "/projects">Projects</a></li>
+                <li> <a href = "/lifestyle">LifeStyle</a></li>
+                <li> <a href = "/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class = "projects"></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".menu-icon").on("click", function(){
+            $("nav ul").toggleClass("showing");
+        });
+    });
+    $(document).ready(function(){
+        $(".sliding").show;
+    });
+</script>
+
+
+
+</body>
+</html>

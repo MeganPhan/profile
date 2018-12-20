@@ -103,7 +103,7 @@ input[type=text], textarea{
   margin-bottom: 16px;
   resize: vertical 
 }
-button[type = submit]{
+input[type=submit]{
   background-color: #4c3327;
   color: white;
   padding: 12px 20px;
@@ -111,7 +111,7 @@ button[type = submit]{
   border-radius: 4px;
   cursor: pointer;
 }
-button[type=submit]:hover {
+input[type=submit]:hover {
   background-color: #ffae17;
 }
 .contact{
@@ -121,10 +121,9 @@ button[type=submit]:hover {
 .form {
   font-weight: bold;
   border-radius: 5px;
-  float: left;
   padding: 20px;
-  background-color: #ffbe45;
-  margin: 4em 20em 0 20em;
+  background-color: #ff9045;
+  margin: 4em 15em 0 15em;
 }
 
 .slider {
@@ -620,7 +619,6 @@ button[type=submit]:hover {
     .form{
       font-weight: bold;
       border-radius: 5px;
-      float: left;
       padding: 20px;
       background-color: #ffbe45;
       margin: 4em 2em 2em 2em;

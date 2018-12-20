@@ -112,18 +112,19 @@ button[type = submit]{
   border-radius: 4px;
   cursor: pointer;
 }
-
 button[type=submit]:hover {
   background-color: #ffae17;
 }
+.contact{
+  background-image: url("./assets/background.png");
+}
 
-.contact {
+.form {
   border-radius: 5px;
   float: left;
   padding: 20px;
   background-color: #f2f2f2;
   margin: 4em 15em 0 15em;
-  background-image: url("./assets/background.png");
 }
 
 .slider {

@@ -115,8 +115,7 @@ input[type=submit]:hover {
   background-color: #ff9045;
 }
 .contact{
-  height: 100%;
-  background-color: #ffae17;
+  background-image: url("assets/background/png") ;
 }
 
 .form {

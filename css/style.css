@@ -622,7 +622,7 @@ input[type=submit]:hover {
       font-weight: bold;
       border-radius: 5px;
       padding: 20px;
-      background-color: #ffbe45;
+      background-color: #cccccc;
       margin: 4em 2em 2em 2em;
     }
 }

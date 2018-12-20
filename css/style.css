@@ -116,7 +116,7 @@ input[type=submit]:hover {
 }
 .contact{
   background-image: url("http://pluspng.com/img-png/sunflowers-transparent-png-image-1499.png") ;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .form {
@@ -124,7 +124,6 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 20px;
   background-color: white;
-  opacity: 0.85;
   margin: 4em 20em 0 20em;
 }
 

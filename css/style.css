@@ -116,7 +116,8 @@ button[type=submit]:hover {
   background-color: #ffae17;
 }
 .contact{
-  background-image: url("assets/background.png");
+  background-image: url("background.png");
+  background-repeat: no-repeat;
 }
 
 .form {

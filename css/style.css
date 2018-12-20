@@ -115,14 +115,14 @@ input[type=submit]:hover {
   background-color: #ff9045;
 }
 .contact{
-  background-color: transparent;
+  background-color: #ffae17;
 }
 
 .form {
   font-weight: bold;
   border-radius: 5px;
   padding: 20px;
-  background-color: #ffae17;
+  background-color: transparent;
   margin: 4em 20em 0 20em;
 }
 

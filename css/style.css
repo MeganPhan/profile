@@ -112,7 +112,7 @@ input[type=submit]{
   cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: #ffae17;
+  background-color: #ff9045;
 }
 .contact{
   background-color: transparent;
@@ -122,7 +122,7 @@ input[type=submit]:hover {
   font-weight: bold;
   border-radius: 5px;
   padding: 20px;
-  background-color: #ff9045;
+  background-color: #ffae17;
   margin: 4em 15em 0 15em;
 }
 

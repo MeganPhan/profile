@@ -591,6 +591,7 @@ button[type=submit]:hover {
         margin-top: 0cm;
     }
     .content p{
+        font-weight: 500;
         margin-right: 0cm;
     }
     nav ul li a:hover{
@@ -608,6 +609,7 @@ button[type=submit]:hover {
         height: 0.8cm;
     }
     .content .slider li{
+        font-weight: bold;
         font-size: 16px;
     }
     .content{
@@ -615,16 +617,14 @@ button[type=submit]:hover {
         font-family: 'Courier New', Courier, monospace;
         font-size: 10px;
     }
-<<<<<<< HEAD
 
-    .contact{
+    .form{
+      font-weight: bold;
       border-radius: 5px;
       float: left;
       padding: 20px;
-      background-color: #f2f2f2;
+      background-color: #ffbe45;
       margin: 4em 2em 2em 2em;
     }
 }
-=======
-}
->>>>>>> 9004cebad03c0ec40e99c30b44afe18ee6d6c025
+

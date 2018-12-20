@@ -89,7 +89,9 @@ nav ul li a:hover{
     text-align: center;
     font-size: 50px;
 }
-
+.fa fa-bars fa-2x{
+  color: #ffae17;
+}
 .fa {
   color: black;
 }
@@ -125,7 +127,7 @@ button[type=submit]:hover {
   float: left;
   padding: 20px;
   background-color: #ffbe45;
-  margin: 4em 15em 0 15em;
+  margin: 4em 20em 0 20em;
 }
 
 .slider {

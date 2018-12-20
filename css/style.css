@@ -115,7 +115,8 @@ input[type=submit]:hover {
   background-color: #ff9045;
 }
 .contact{
-  background-image: url("http://pluspng.com/img-png/sunflowers-transparent-png-image-1499.png") ;
+  /* background-image: url("http://pluspng.com/img-png/sunflowers-transparent-png-image-1499.png") ; */
+  background-image: url("http://pngimg.com/uploads/sunflower/sunflower_PNG13368.png");
   opacity: 0.4;
 }
 

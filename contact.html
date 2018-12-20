@@ -40,14 +40,14 @@
     </header>
 <div class = "contact">
     <div class = "form">
-    <form action = "contactform.php">
+    <form id = "contactform" method = "post" action = "contactform.php">
         <label for = "name">Your Name</label>
         <input type ="text" id = "name" name = "name" placeholder="You go by ...">
         <label for="email">Email</label>
         <input type ="text" id = "email" name = "email" placeholder="Your email is ...">
         <label for = "message">Message</label>
         <textarea id = "message" name ="message" placeholder="I'd love to hear something from you ..." style = "height: 150px"></textarea>
-        <button type = "submit" name = "submit">Send</button>
+        <input type = "submit" value = "Submit">
     </form>
     </div>
 </div>

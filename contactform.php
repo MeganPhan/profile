@@ -1,14 +1,16 @@
 <?php
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-use FormGuide\Handlx\FormHandler;
+    $email_subject = "New Message from Your Website";
+    $email_body = "From:  $name.\n".
+                    "Email: $email.\n".
+                        "Message: $message.\n";
 
-$pp = new FormHandler(); 
+    $email_to = "kimhoang7994@gmail.com";
+    $header = "From: $name \r\n";
+    $header = "Reply-To: $email \r\n";
 
-$validator = $pp->getValidator();
-$validator->fields(['name','email'])->areRequired()->maxLength(50);
-$validator->field('email')->isEmail();
-$validator->field('message')->maxLength(6000);
-
-$pp->sendEmailTo('kimhoang7994@gmail.com');
-
-echo $pp->process($_POST);
+    mail($email_to, $email_subject, $email_body, $header);
+    header("Location: contact.html");

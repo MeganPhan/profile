@@ -84,6 +84,48 @@ nav ul li a:hover{
     display: none;
 }
 
+.media{
+    margin: 2em 0 0 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+.fa {
+  color: black;
+}
+
+input[type=text], textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
+}
+button[type = submit]{
+  background-color: #4c3327;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #ffae17;
+}
+
+.contact {
+  border-radius: 5px;
+  float: left;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin: 4em 15em 2em 15em;
+  background-image: url('assets/background.png');
+}
+
 .slider {
   height: 2em;
   width: 13em;
@@ -565,5 +607,13 @@ nav ul li a:hover{
         margin-top: 2cm;
         font-family: 'Courier New', Courier, monospace;
         font-size: 10px;
+    }
+
+    .contact{
+      border-radius: 5px;
+      float: left;
+      padding: 20px;
+      background-color: #f2f2f2;
+      margin: 4em 2em 2em 2em;
     }
 }

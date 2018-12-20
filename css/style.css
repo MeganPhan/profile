@@ -122,8 +122,8 @@ button[type=submit]:hover {
   float: left;
   padding: 20px;
   background-color: #f2f2f2;
-  margin: 4em 15em 2em 15em;
-  background-image: url("background.png");
+  margin: 4em 15em 0 15em;
+  background-image: url("./assets/background.png");
 }
 
 .slider {

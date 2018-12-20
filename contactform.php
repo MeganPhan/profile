@@ -1,14 +1,14 @@
 <?php
-if(isset($_POST['submit'])){
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
 
+use FormGuide\Handlx\FormHandler;
 
-    $mailTo = "hoang.phan@tcu.edu";
-    $header = "From: ".$email;
-    $txt = "You have received a message from ".$name.".\n\n".$message;
+$pp = new FormHandler(); 
 
-    mail($mailTo, $txt, $header);
-    header("Location: contactform.php?mailsend");
-}
+$validator = $pp->getValidator();
+$validator->fields(['name','email'])->areRequired()->maxLength(50);
+$validator->field('email')->isEmail();
+$validator->field('message')->maxLength(6000);
+
+$pp->sendEmailTo('kimhoang7994@gmail.com');
+
+echo $pp->process($_POST);

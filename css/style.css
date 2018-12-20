@@ -122,7 +122,8 @@ input[type=submit]:hover {
   font-weight: bold;
   border-radius: 5px;
   padding: 20px;
-  background-color: transparent;
+  background-color: white;
+  opacity: 0.75;
   margin: 4em 20em 0 20em;
 }
 

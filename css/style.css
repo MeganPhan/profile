@@ -123,7 +123,7 @@ input[type=submit]:hover {
   font-weight: bold;
   border-radius: 5px;
   padding: 20px;
-  background-color: white;
+  background-color: #ffae17;
   opacity: 0.9;
   margin: 4em 20em 0 20em;
 }

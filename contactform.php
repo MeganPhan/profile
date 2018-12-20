@@ -8,7 +8,7 @@
                     "Email: $email.\n".
                         "Message: $message.\n";
 
-    $email_to = "kimhoang7994@gmail.com";
+    $email_to = "hoang.phan@tcu.edu";
     $header = "From: $name \r\n";
     $header = "Reply-To: $email \r\n";
 

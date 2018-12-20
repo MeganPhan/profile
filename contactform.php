@@ -14,3 +14,4 @@ if(isset($_POST['send'])){
     header("Location: index.php?mailsend");
 
 }
+?>

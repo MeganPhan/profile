@@ -16,7 +16,7 @@ header{
 
 .content {
     width: 80%;
-    margin-top: 1em;
+    margin-top: 3em;
     margin-left: 3em;
     font-size: 20px;
     line-height: 30px;
@@ -585,7 +585,12 @@ button[type=submit]:hover {
     .menu-icon{
         display: block;
     }
-
+    .content{
+        margin-top: 0cm;
+    }
+    .content p{
+        margin-right: 0cm;
+    }
     nav ul li a:hover{
         color: rgb(255, 174, 23);
     }
@@ -608,6 +613,7 @@ button[type=submit]:hover {
         font-family: 'Courier New', Courier, monospace;
         font-size: 10px;
     }
+<<<<<<< HEAD
 
     .contact{
       border-radius: 5px;
@@ -617,3 +623,6 @@ button[type=submit]:hover {
       margin: 4em 2em 2em 2em;
     }
 }
+=======
+}
+>>>>>>> 9004cebad03c0ec40e99c30b44afe18ee6d6c025

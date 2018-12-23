@@ -42,8 +42,8 @@ header{
 
 .center {
   display: block;
-  text-align: center;
-  width: 50%;
+  margin-left: 20em;
+  width: 30%;
 }
 
 nav{

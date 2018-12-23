@@ -42,9 +42,7 @@ header{
 
 .center {
   display: block;
-  margin-top: 2em;
-  margin-left: 30em;
-  margin-right: 30em;
+  margin-top: 2em auto auto 0;
   width: 30%;
 }
 

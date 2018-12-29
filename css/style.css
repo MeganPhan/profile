@@ -17,14 +17,12 @@ header{
 .content {
     width: 80%;
     margin-top: 2em;
-    margin-left: 3em;
     font-size: 20px;
     line-height: 30px;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .content p {
-    margin-right: 1cm;
     font-size: 18px;
     font-weight: 500;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
